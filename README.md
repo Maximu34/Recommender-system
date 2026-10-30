@@ -4,12 +4,19 @@
 
 > [!WARNING]
 > **All Rights Reserved — not open source.** This repository is published for academic evaluation only. No permission is granted to use, copy, modify or redistribute any part of it.
-> AUTHORS
-    Rajaa Sasidharan        23MIA1174
-    B. L. Jainth Vaishnav   23MIA1022
 
-PROJECT MENTOR
-    Dr S Vigneshwari (54147)
+### Authors
+
+**Rajaa Sasidharan**<br>
+23MIA1174
+
+**B. L. Jainth Vaishnav**<br>
+23MIA1022
+
+### Project Mentor
+
+**Dr S Vigneshwari**<br>
+(54147)
 
 | | |
 |---|---|
