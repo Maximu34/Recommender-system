@@ -1,0 +1,9 @@
+ablation,variant,p_at_5_fine,p_at_5_coarse
+anisotropy correction,as produced,0.315,0.476
+anisotropy correction,mean-centred,0.299,0.468
+anisotropy correction,"centred, top-1 PC removed",0.29,0.42
+anisotropy correction,"centred, top-2 PCs removed",0.251,0.355
+checkpoint,laion/larger_clap_music,0.172,
+checkpoint,laion/clap-htsat-unfused,0.315,
+baseline standardisation,raw features,0.138,
+baseline standardisation,z-scored,0.245,

@@ -1,0 +1,24 @@
+# Core API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+
+# ML / audio
+# NOTE: install torch first from the CPU index (see README) to avoid a huge CUDA download:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.5
+transformers>=4.44
+librosa>=0.10
+soundfile>=0.12
+# PyAV bundles its own ffmpeg libraries, so iTunes previews (AAC/m4a) decode
+# without installing ffmpeg system-wide. libsndfile alone cannot read AAC.
+av>=12.0
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+
+# Catalog building
+requests>=2.32
+
+# Postgres/Supabase backend (optional - SQLite is the default)
+psycopg[binary]>=3.2

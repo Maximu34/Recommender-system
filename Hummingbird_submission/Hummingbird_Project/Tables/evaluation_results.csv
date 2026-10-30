@@ -1,0 +1,13 @@
+engine,labelling,k,precision,lift_over_random
+CLAP (learned),fine,5,0.3373,2.55
+CLAP (learned),fine,10,0.3209,2.486
+Baseline (MFCC/chroma),fine,5,0.2756,2.083
+Baseline (MFCC/chroma),fine,10,0.2546,1.972
+Random control,fine,5,0.1323,1.0
+Random control,fine,10,0.1291,1.0
+CLAP (learned),coarse,5,0.537,2.025
+CLAP (learned),coarse,10,0.5221,2.001
+Baseline (MFCC/chroma),coarse,5,0.4623,1.744
+Baseline (MFCC/chroma),coarse,10,0.4467,1.712
+Random control,coarse,5,0.2651,1.0
+Random control,coarse,10,0.2609,1.0

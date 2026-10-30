@@ -1,0 +1,4 @@
+condition,clap_p5,baseline_p5,random_p5,clap_lead_pct
+"529 recordings, uncorrected metadata",0.295,0.256,0.122,15
+"529 recordings, corrected metadata",0.332,0.31,0.154,7
+"1404 recordings, corrected metadata",0.337,0.276,0.132,22

@@ -1,0 +1,13 @@
+DEMONSTRATION VIDEO
+    <paste the link to your demo video here before uploading>
+
+WHAT THE DEMO SHOULD COVER
+    1. Typed search       "bohemian" -> Bohemian Rhapsody plus songs that
+                          sound like it, each playable
+    2. Lyric search       "caught in a landslide" -> the same song, with the
+                          matched line shown
+    3. Mood search        "chill lo-fi beats" -> Boards of Canada and similar
+    4. A missing song     search something not in the catalogue; it is fetched
+                          from iTunes, analysed, and its neighbours appear
+    5. Humming            hum a catalogue song into the microphone
+    6. The API            http://127.0.0.1:8000/docs

@@ -1,0 +1,29 @@
+# Deployment requirements: everything the API needs EXCEPT torch and
+# transformers.
+#
+# The model is only used by free-text mood search. Everything else --
+# /search, /find, /similar, /hum -- runs on numpy and librosa:
+#
+#   /similar   reads the stored .npy vectors; no model is involved
+#   /hum       is pYIN and DTW, which is librosa, not torch
+#   /search    is a database query
+#
+# Dropping torch takes the instance from about 1 GB resident to roughly 200 MB,
+# which is the difference between needing a paid tier and fitting a free one.
+# The mood *tiles* still work: their vectors are precomputed by
+# scripts/precompute_moods.py and shipped as a 12 KB file.
+
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+
+librosa>=0.10
+soundfile>=0.12
+# PyAV bundles ffmpeg, so browser recordings (webm/opus) decode with no system
+# ffmpeg. libsndfile alone cannot read them.
+av>=12.0
+numpy>=1.26
+scipy>=1.11
+
+# Postgres/Supabase
+psycopg[binary]>=3.2
