@@ -5,8 +5,7 @@
 > [!WARNING]
 > **All Rights Reserved — not open source.** This repository is published for academic evaluation only. No permission is granted to use, copy, modify or redistribute any part of it.
 
-### Name: **Rajaa Sasidharan**<br>
- **B. L. Jainth Vaishnav**<br>
+### Name: **Rajaa Sasidharan**<br> ,**B. L. Jainth Vaishnav**<br>
 
 
 ### Project Mentor: 
