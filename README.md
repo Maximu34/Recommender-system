@@ -4,6 +4,12 @@
 
 > [!WARNING]
 > **All Rights Reserved — not open source.** This repository is published for academic evaluation only. No permission is granted to use, copy, modify or redistribute any part of it.
+> AUTHORS
+    Rajaa Sasidharan        23MIA1174
+    B. L. Jainth Vaishnav   23MIA1022
+
+PROJECT MENTOR
+    Dr S Vigneshwari (54147)
 
 | | |
 |---|---|
@@ -12,8 +18,6 @@
 | **Programme** | M.Tech Integrated CSE (Business Analytics) |
 | **School** | School of Computer Science and Engineering |
 | **Institution** | Vellore Institute of Technology, Chennai |
-| **Faculty Mentor** | Dr S Vigneshwari (54147) |
-| **Authors** | Rajaa Sasidharan (23MIA1174) · B. L. Jainth Vaishnav (23MIA1022) |
 | **Date** | October 2026 |
 
 ## About
